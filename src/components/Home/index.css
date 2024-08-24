@@ -1,0 +1,15 @@
+.spinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+ul a {
+  text-decoration: none !important;
+}

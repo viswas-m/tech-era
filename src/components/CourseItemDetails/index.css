@@ -1,0 +1,21 @@
+.itemDetails {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  width: 80%;
+}
+.itemDetails img {
+  width: 300px;
+  margin-right: 20px;
+}
+@media screen and (max-width: 768px) {
+  .itemDetails {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    width: 100%;
+  }
+}
